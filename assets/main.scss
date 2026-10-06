@@ -1,0 +1,48 @@
+---
+---
+
+@import "minima";
+
+.home-intro {
+  margin: 1rem 0 3rem;
+  padding: clamp(2rem, 6vw, 4rem);
+  border: 1px solid #dce8e2;
+  border-radius: 1.25rem;
+  background: linear-gradient(135deg, #f3f8f5 0%, #edf4f8 100%);
+}
+
+.home-kicker {
+  margin-bottom: 0.75rem;
+  color: #39735b;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.home-intro h1 {
+  max-width: 14ch;
+  margin-bottom: 1rem;
+  color: #183c32;
+  font-size: clamp(2.25rem, 6vw, 3.5rem);
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+}
+
+.home-summary {
+  max-width: 38rem;
+  margin-bottom: 1.75rem;
+  color: #43564f;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.post-list-heading {
+  color: #183c32;
+  font-size: 1.6rem;
+}
+
+.post-list > li {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #e5ebe7;
+}
